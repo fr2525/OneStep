@@ -15,7 +15,7 @@
 					</div>
 				</li>
 				<li>
-					<img src="_img/hotel-banner-2.jpg" alt="">
+					<img src="_img/London-Eye-big-ben.webp" alt="">
 					<div class="caption black-text center-align">
 						<h4>Europe</h4>
 						<h5>Do you want know more about that? <br>This is an oportunity.</h5>
@@ -23,7 +23,7 @@
 					</div>
 				</li>
 				<li>
-					<img src="_img/hotel-banner-3.jpg" alt="">
+					<img src="_img/Torreeiffel.jpeg" alt="">
 					<div class="caption right-align">
 						<h4>Enterprises</h4>
 						<h5>If you are projeting open a filial in Europe, <br>contact us.</h5>
