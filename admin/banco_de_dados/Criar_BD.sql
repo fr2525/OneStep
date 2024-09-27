@@ -63,3 +63,16 @@ INSERT INTO tb_countries VALUES
  (default,'Holy See',496,'Southern Europe',0,'Requests for immigration','Benefits','Life quality','Life cost','Process',CURRENT_DATE),
  (default,'Isle of Man',84160,'U.K.',0,'Requests for immigration','Benefits','Life quality','Life cost','Process',CURRENT_DATE),
  (default,'Gibraltar',39329,'U.K.',0,'Requests for immigration','Benefits','Life quality','Life cost','Process',CURRENT_DATE);
+
+DROP TABLE IF EXISTS users;
+CREATE TABLE IF NOT EXISTS users (
+id int(10) unsigned NOT NULL AUTO_INCREMENT,
+nome varchar(100) NOT NULL,
+user varchar(50) NOT NULL,
+password varchar(50) NOT NULL,
+PRIMARY KEY (id),
+UNIQUE KEY user (user)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+INSERT INTO users VALUES
+(default,'admin','admin','123456');

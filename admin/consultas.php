@@ -1,6 +1,5 @@
 <?php include_once('includes/header.inc.php')
 ?>
-
 <?php include_once('includes/menu.inc.php')
 ?>
 
